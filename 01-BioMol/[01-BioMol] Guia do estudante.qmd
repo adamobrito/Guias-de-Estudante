@@ -1,0 +1,111 @@
+---
+# title: "[01-BioMol] Guia do estudante" # Titulo
+format:
+  html:
+      toc: true # tabela de conteúdo
+      toc-title: "Tópicos"
+      toc_float: true #tabela flutuante
+      theme: 
+        - simplex # Tema do bootwatch
+        - custom_callouts.scss
+---
+
+# **🥳 Boas-Vindas!**
+
+Seja bem-vindo(a) ao nosso curso de Biologia Molecular Básica do LGCM Treinamentos! Estamos empolgados em ter você conosco e ansiosos para guiar você para alcançar seus objetivos de aprendizado. Este guia de boas-vindas foi criado para orientá-lo(a) nas funcionalidades da plataforma e nas atividades do curso. Vamos começar?
+
+# 🧭 Como navegar na plataforma?
+
+**1. Visão Geral:**
+
+Antes de iniciar as atividades, vamos dar uma olhada rápida nas principais funcionalidades:
+
+1. **Página Inicial**: Aqui você encontrará um resumo das informações dos cursos disponíveis na plataforma (Início).   
+    
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Captura_de_tela_de_2023-09-14_10-57-08.png)
+:::
+    
+2. **Painel:** É a página inicial em que você terá acesso aos cursos em que se inscreveu. Também é lá que você encontra a respectiva porcentagem de avanço.
+    
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Captura_de_tela_de_2023-09-14_16-22-57.png)
+:::
+    
+3. **Tópicos**: O conteúdo do curso é organizado em tópicos, tornando a navegação mais simples.
+4. **Atividades**: São os pontos de interação e avaliação, como fóruns, questões de múltipla escolha, envio de trabalhos e o projeto final. É aqui que você irá encontrar as atividades para medir o seu conhecimento adquirido.
+5. **Recursos**: Esses são os documentos, links e materiais de apoio que estão disponíveis online e para download.
+
+**2. Navegando no Curso:**
+
+Ao entrar em qualquer dos cursos em que você está inscrito você conseguirá acessar as atividades abertas para você. Elas são organizadas da seguinte forma:
+
+- **Navegação por Tópicos**: Clique nos tópicos numerados para acessar as informações e atividades relacionadas a cada unidade do curso.
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Captura_de_tela_de_2023-09-14_11-58-25.png)
+:::
+
+- **Menu de Navegação**: Utilize o menu lateral para acessar rapidamente as diferentes seções do curso.
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Captura_de_tela_de_2023-09-14_11-58-25%201.png)
+:::
+
+# 🤔 Como está organizado o curso?
+
+Os Cursos dessa plataforma estão distribuídos em Unidades, cada uma delas tem os Tópicos como relacionados e atividades que dirigem o aprendizado.
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+## Figura 01 - Resumo Gráfico
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/01-BioMol_Resumo_Grfico.png)
+:::
+
+
+Agora, vamos explorar as principais atividades que você encontrará durante o curso.
+
+- **Fóruns**: Os fóruns são espaços para discussão de tópicos específicos. Você pode participar postando perguntas, respostas e compartilhando suas opiniões.
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Untitled_(1).png)
+:::
+
+- **Questões de Múltipla Escolha**: Teste seu conhecimento com questionários de múltipla escolha e receba feedback instantâneo.
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Untitled.png)
+:::
+
+- **Envio de Trabalhos**: Submeta seus trabalhos diretamente na plataforma. Certifique-se de seguir as instruções e prazos fornecidos pelo professor.
+- **Projeto Final de Curso**: O projeto final é uma oportunidade para aplicar seus conhecimentos em um projeto prático. As diretrizes serão fornecidas pelo professor.
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Untitled%201.png)
+
+:::
+- Além disso, a plataforma permite incluir os mais diversos conteúdos, como mapas, documentos, ferramentas colaborativas de produção, músicas, vídeos, podcasts, entre outros.
+
+**4. Comunicação e Suporte:**
+
+- **Mensagens Privadas**: Você pode enviar mensagens privadas para seus colegas e instrutores para esclarecer dúvidas ou discutir tópicos relacionados ao curso.
+- **Fórum de Suporte**: Em caso de problemas técnicos ou dúvidas sobre o curso, utilize o fórum de suporte para obter ajuda.
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Untitled%202.png)
+
+:::
+**5. Avaliação e Progresso:**
+
+Acompanhe seu progresso no curso através do painel de notas e do registro de atividades. Isso ajudará você a manter o controle de seu desempenho e identificar áreas que precisam de melhoria.
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+![](%5B01-BioMol%5D%20Guia%20do%20estudante/Untitled%203.png)
+
+:::
+**6. Próximos Passos:**
+
+Agora que você está familiarizado(a) com a plataforma Moodle e as atividades do curso, é hora de começar a sua jornada de aprendizado. Lembre-se de verificar regularmente o curso para atualizações, prazos e participar ativamente das discussões.
+
+Desejamos a você muito sucesso em seu curso EAD! Se tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato com nosso suporte ou seus colegas de turma. Estamos aqui para apoiá-lo(a) em sua jornada educacional.
+
+# 🎉 Bons estudos e aproveite o curso! 

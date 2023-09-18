@@ -1,0 +1,251 @@
+/*Objetivo: Para destacar o escopo da unidade*/
+/*Quotes: Para usar em definições e citações diretas*/
+/*Fig: Para usar em Figuras*/
+/*Exp: Conteúdo relacionado a experimentos,Fatos científicos, experiências ou aplicação, 
+neste caso a cor é reemplazado em <path d="M16 2v2h-1v3.243c0 1.158.251 2.301.736 3.352l4.282 9.276c.347.753.018 1.644-.734 1.99-.197.092-.411.139-.628.139H5.344c-.828 0-1.5-.672-1.5-1.5 0-.217.047-.432.138-.629l4.282-9.276C8.749 9.545 9 8.401 9 7.243V4H8V2h8zm-3 2h-2v4h2V4z" fill="rgba(10,224,46,1)"/>, último segmento do código*/
+/*Ref: Referencias e leitura recomendada*/
+/*Dica: Mnemônicas e dicas*/
+/*-- scss:defaults --*/
+$callout-background: #ffffff;
+
+
+/*-- scss:rules --*/
+
+/*Objetivo*/
+.callout {
+    background-color:$callout-background;
+ }
+ 
+$border-color-left: rgb(217, 115, 13) !default;
+$icon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(217, 115, 13)" class="bi bi-bullseye" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10zm0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/><path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/><path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/></svg>') !default;
+
+$background-color: #fbecdd !default;
+
+/*Quotes*/
+.callout {
+  background-color:$callout-background;
+}
+
+$qborder-color-left: rgb(170, 138, 195) !default;
+$qicon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(170,138,195)" class="bi bi-quote" viewBox="0 0 16 16"><path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/></svg>') !default;
+
+$qbackground-color: #f6f3f8 !default;
+
+/*Fig*/
+.callout {
+  background-color:$callout-background;
+  }
+
+$fborder-color-left: rgb(51, 126, 169) !default;
+$ficon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(51, 126, 169)" class="bi bi-file-image" viewBox="0 0 16 16"><path d="M8.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/><path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v8l-2.083-2.083a.5.5 0 0 0-.76.063L8 11 5.835 9.7a.5.5 0 0 0-.611.076L3 12V2z"/></svg>') !default;
+
+$fbackground-color: #e7f3f8 !default;
+
+/*Exp*/
+.callout {
+  background-color:$callout-background;
+  }
+
+$eborder-color-left: rgb(68, 131, 97) !default;
+$eicon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0H24V24H0z"/><path d="M16 2v2h-1v3.243c0 1.158.251 2.301.736 3.352l4.282 9.276c.347.753.018 1.644-.734 1.99-.197.092-.411.139-.628.139H5.344c-.828 0-1.5-.672-1.5-1.5 0-.217.047-.432.138-.629l4.282-9.276C8.749 9.545 9 8.401 9 7.243V4H8V2h8zm-3 2h-2v4h2V4z" fill="rgba(68, 131, 97)"/></svg>') !default;
+
+$ebackground-color: #edf3ec !default;
+
+/*Ref*/
+.callout {
+  background-color:$callout-background;
+}
+
+$rborder-color-left: rgb(179, 186, 187) !default;
+$ricon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(179, 186, 187)" class="bi bi-journal-text" viewBox="0 0 16 16"><path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/><path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/><path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/></svg>') !default;
+
+$rbackground-color: #fcfcfc !default;
+
+/*Dica*/
+.callout {
+  background-color:$callout-background;
+}
+
+$dborder-color-left: rgb(212, 76, 71) !default;
+$dicon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path fill="none" d="M0 0h24v24H0z"/><path d="M9.973 18h4.054c.132-1.202.745-2.194 1.74-3.277.113-.122.832-.867.917-.973a6 6 0 1 0-9.37-.002c.086.107.807.853.918.974.996 1.084 1.609 2.076 1.741 3.278zM14 20h-4v1h4v-1zm-8.246-5a8 8 0 1 1 12.49.002C17.624 15.774 16 17 16 18.5V21a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.5C8 17 6.375 15.774 5.754 15zM13 10.004h2.5l-4.5 6v-4H8.5L13 6v4.005z" fill="rgb(212, 76, 71)"/></svg>') !default;
+
+$dbackground-color: #fdebec !default;
+
+/*keywords*/
+.callout {
+  background-color:$callout-background;
+}
+
+$kborder-color-left: rgb(209, 157, 69)!default;
+$kicon: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 14H12.6586C11.8349 16.3304 9.61244 18 7 18C3.68629 18 1 15.3137 1 12C1 8.68629 3.68629 6 7 6C9.61244 6 11.8349 7.66962 12.6586 10H23V14H21V18H17V14ZM7 14C8.10457 14 9 13.1046 9 12C9 10.8954 8.10457 10 7 10C5.89543 10 5 10.8954 5 12C5 13.1046 5.89543 14 7 14Z" fill="rgba(209, 157, 69)"></path></svg>') !default;
+
+$kbackground-color: #fbf3db !default;
+
+/*----------------------------------------------------------------*/
+/*-- scss:rules --*/
+
+/*Objetivo*/
+
+div.callout-objetivo.callout {
+  border-left-color: $border-color-left;
+}
+
+div.callout-objetivo.callout-style-default>.callout-header {
+  background-color: $background-color;
+}
+
+.callout-objetivo.icon .callout-icon {
+  display: unset !important;
+}
+
+div.callout-objetivo.icon.callout-captioned .callout-icon::before {
+  background-image: $icon;
+}
+
+.callout-objetivo.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+
+/*Quotes*/
+
+div.callout-quotes.callout {
+  border-left-color: $qborder-color-left;
+}
+
+div.callout-quotes.callout-style-default>.callout-header {
+  background-color: $qbackground-color;
+}
+
+.callout-quotes.icon .callout-icon {
+  display: unset !important;
+}
+
+div.callout-quotes.icon.callout-captioned .callout-icon::before {
+  background-image: $qicon;
+}
+
+.callout-quotes.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+
+/*Fig*/
+
+div.callout-fig.callout {
+  border-left-color: $fborder-color-left;
+}
+
+div.callout-fig.callout-style-default>.callout-header {
+  background-color: $fbackground-color;
+}
+
+.callout-fig.icon .callout-icon {
+  display: unset !important;
+}
+
+div.callout-fig.icon.callout-captioned .callout-icon::before {
+  background-image: $ficon;
+}
+
+.callout-fig.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+
+/* Exp */
+
+div.callout-exp.callout {
+  border-left-color: $eborder-color-left;
+}
+
+div.callout-exp.callout-style-default>.callout-header {
+  background-color: $ebackground-color;
+}
+
+.callout-exp.icon .callout-icon {
+  display: unset !important;
+}
+
+div.callout-exp.icon.callout-captioned .callout-icon::before {
+  background-image: $eicon;
+}
+
+.callout-exp.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+
+/*Ref*/
+
+div.callout-ref.callout {
+  border-left-color: $rborder-color-left;
+}
+
+div.callout-ref.callout-style-default>.callout-header {
+  background-color: $rbackground-color;
+}
+
+.callout-ref.icon .callout-icon {
+  display: unset !important;
+}
+
+div.callout-ref.icon.callout-captioned .callout-icon::before {
+  background-image: $ricon;
+}
+
+.callout-ref.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+
+/*Dica*/
+
+div.callout-dica.callout {
+  border-left-color: $dborder-color-left;
+}
+
+div.callout-dica.callout-style-default>.callout-header {
+  background-color: $dbackground-color;
+}
+
+.callout-dica.icon .callout-icon {
+  display: unset !important;
+}
+
+div.callout-dica.icon.callout-captioned .callout-icon::before {
+  background-image: $dicon;
+}
+
+.callout-dica.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+
+/*keywords*/
+div.callout-key.callout {
+  border-left-color: $kborder-color-left;
+}
+
+div.callout-key.callout-style-default>.callout-header {
+  background-color: $kbackground-color;
+}
+
+.callout-key.icon .callout-icon {
+  display: unset !important;
+}
+
+div.callout-key.icon.callout-captioned .callout-icon::before {
+  background-image: $kicon;
+}
+
+.callout-key.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+
+/* ---------Estilo---- */
+/*--scss:rules--*/
+p {
+text-align: justify;
+}

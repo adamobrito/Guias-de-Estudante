@@ -1,0 +1,120 @@
+---
+# title: "Unidade I" # Titulo
+format:
+  html:
+      toc: true # tabela de conteúdo
+      toc-title: "Tópicos"
+      toc_float: true #tabela flutuante
+      theme: 
+        - simplex # Tema do bootwatch
+        - custom_callouts.scss
+---
+
+::: {.callout-objetivo .icon .callout-note collapse="true"}
+Nesta lição pretendemos que você aprenda:
+
+- 
+
+:::
+
+# 1. 
+## 1.1
+## 1.2
+
+# 2.
+## 2.1 
+## 2.2 
+## 2.3 
+## 2.4 
+
+# 3.
+## 3.1 
+## 3.2 
+
+# 4. 
+## 4.1 
+## 4.2 
+
+# Recursos 
+
+<!-- Estilos de callouts-->
+
+::: callout-note
+Note that there are five types of callouts, including:
+
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: callout-important
+Note that there are five types of callouts, including:
+
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: callout-warning
+Note that there are five types of callouts, including:
+
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: callout-tip
+## Tip With Caption
+
+This is an example of a callout with a caption.
+:::
+
+::: {.callout-caution collapse="true"}
+
+Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+::: callout-bug
+## Bug With Caption
+
+This is an example of a callout with a caption.
+:::
+
+::: callout-question
+## Question With Caption
+
+This is an example of a callout with a caption.
+:::
+
+::: callout-example
+## Exemple With Caption
+
+This is an example of a callout with a caption.
+:::
+
+<!-- Pode aplicar o formato expandible nos outros tipos de call out -->
+
+## Callouts Personalizados:
+
+::: {.callout-objetivo .icon .callout-note collapse="true"}
+Callout objetivo
+:::
+
+::: {.callout-quotes .icon}
+Notas e definições.
+:::
+
+::: {.callout-fig .icon .callout-note collapse="true"}
+Imagens 
+:::
+
+::: {.callout-exp .icon}
+Fatos científicos, experiencias
+:::
+
+:::{.callout-ref .icon .callout-note collapse="true"}
+## Referências e leitura recomendada
+- **Referências**
+
+Fontes utilizadas
+
+- **Leitura recomendada**
+
+Livros e artigos para aprofundar nos conceitos
+:::
